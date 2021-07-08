@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "784944286768",
+    "firebase_url": "https://edumed-d639a.firebaseio.com",
+    "project_id": "edumed-d639a",
+    "storage_bucket": "edumed-d639a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784944286768:android:2dc05a7a34ca09ae5fb1f5",
+        "android_client_info": {
+          "package_name": "com.appspouch.edumed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784944286768-n6gq9fiju3j6qn3h434k0pjjiuk217jj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appspouch.edumed",
+            "certificate_hash": "0bad2e31ea3f1642b69acd94802b6620d584c387"
+          }
+        },
+        {
+          "client_id": "784944286768-shjqnspeujd8updbqoui8q4772keek9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5WAuBMYKFjpHKULWZT_4pFSo-wWrcRiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784944286768-shjqnspeujd8updbqoui8q4772keek9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

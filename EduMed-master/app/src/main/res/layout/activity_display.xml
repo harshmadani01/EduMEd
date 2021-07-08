@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_display_background">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/facts"
+        android:text="FACTS"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/descriptionlist"
+        android:layout_marginTop="15dp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/raleway_bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/facts_card"
+        android:layout_below="@+id/facts"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardElevation="3dp"
+        app:cardBackgroundColor="@color/descriptioncard_back"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/facts_detail"
+            android:textColor="@color/description"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cause"
+        android:text="CAUSE"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/descriptionlist"
+        android:layout_below="@+id/facts_card"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/raleway_bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cause_card"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardElevation="3dp"
+            app:cardBackgroundColor="@color/descriptioncard_back"
+            android:layout_below="@+id/cause"
+            android:layout_margin="5dp">
+
+
+            <TextView
+                android:id="@+id/cause_detail"
+                android:textColor="@color/description"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                />
+        </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/symptoms"
+        android:text="SYMPTOMS"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/descriptionlist"
+        android:layout_below="@+id/cause_card"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/raleway_bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/symptoms_card"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardElevation="3dp"
+            app:cardBackgroundColor="@color/descriptioncard_back"
+            android:layout_below="@+id/symptoms"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/symptoms_detail"
+                android:textColor="@color/description"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                />
+        </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/treatment"
+        android:text="TREATMENT"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/descriptionlist"
+        android:layout_below="@id/symptoms_card"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/raleway_bold" />
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/treatment_card"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardElevation="3dp"
+            app:cardBackgroundColor="@color/descriptioncard_back"
+            android:layout_below="@+id/treatment"
+            android:layout_margin="5dp">
+
+
+
+                <TextView
+                    android:id="@+id/treatment_detail"
+                    android:textColor="@color/description"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    />
+        </androidx.cardview.widget.CardView>
+</RelativeLayout>
+</ScrollView>
+
+

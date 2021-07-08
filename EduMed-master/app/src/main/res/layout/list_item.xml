@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="#FFF"
+    android:layout_margin="5dp"
+    >
+
+    <TextView
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:id="@+id/list_disease_name"
+        android:text="List of Disease"
+        android:fontFamily="@font/raleway_bold"
+        android:layout_height = "50dp"
+        android:layout_width="match_parent"
+        />
+</androidx.cardview.widget.CardView>
